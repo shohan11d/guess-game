@@ -1,0 +1,128 @@
+@import "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap";
+html {
+  color-scheme: dark light;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+* {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul[role="list"], ol[role="list"] {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizespeed;
+  font-family: Muli, sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *, :before, :after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+.basic-btn {
+  background-color: #fff;
+}
+
+header div {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  display: flex;
+}
+
+body {
+  color: #ebebeb;
+  background-color: #202020;
+  font-family: "Press Start 2P";
+}
+
+.secret {
+  background-color: #ebebeb;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  height: 80px;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.secret span {
+  color: #000;
+  z-index: 3;
+  padding: 2rem;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.question-container {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  display: flex;
+}
+
+.grid-container {
+  grid-template-rows: repeat(2, minmax(100px, 1fr));
+  grid-template-columns: repeat(2, minmax(130px, 400px));
+  place-content: center;
+  place-items: center;
+  display: grid;
+}
+
+.input {
+  background-color: #202020;
+  border: 4px solid #ebebeb;
+  max-width: 90px;
+  padding: .5rem;
+  font-size: 1.5rem;
+}
+
+.range {
+  font-size: .8rem;
+}
+
+.msg, .item-4 {
+  font-size: .9rem;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,YAAY,KAAK,KAAK,CAAC,KAAK,MAAM,KAAK,KAAK;AAElD,QAAQ,GAAG,CAAC;AAEZ,QAAQ,GAAG,CAAC","sources":["src/script.js"],"sourcesContent":["const randomNum = Math.trunc(Math.random() * 6) + 1;\r\n\r\nconsole.log(randomNum);\r\n\r\nconsole.log('df');\r\n"],"names":[],"version":3,"file":"index.44983732.js.map","sourceRoot":"/__parcel_source_root/"}

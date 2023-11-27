@@ -1,0 +1,153 @@
+/* @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+html {
+  color-scheme: dark light;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+p {
+  margin: 0;
+}
+.basic-btn {
+  background-color: white;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+
+  flex-wrap: nowrap;
+}
+
+body {
+  font-family: "Press Start 2P";
+  background-color: #202020;
+  color: #ebebeb;
+}
+
+.secret {
+  height: 80px;
+  min-width: 80px;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.secret span {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 2rem;
+  z-index: 3;
+}
+
+.question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(130px, 400px));
+  grid-template-rows: repeat(2, minmax(100px, 1fr));
+
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.input {
+  max-width: 90px;
+
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 4px solid #ebebeb;
+
+  background-color: #202020;
+}
+
+.range {
+  font-size: 0.8rem;
+}
+.msg,
+.item-4 {
+  font-size: 0.9rem;
+}
